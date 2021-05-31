@@ -1137,7 +1137,14 @@ footer .footer-width .footer-row-2{
         transition: transform .3s ease;
         transition: transform .3s ease, -webkit-transform .3s ease;
     }
-    .rotateicon h5:after{
+    .rotateicon-1 h5:after{
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        animation: transform .3s ease;
+    }
+    .rotateicon-2 h5:after{
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -o-transform: rotate(45deg);
@@ -1158,22 +1165,6 @@ footer .footer-width .footer-row-2{
         -webkit-transform: translateY(-100px);
         transform: translateY(-100px);
 
-    }
-    #footer-list-0.showlist0{
-        position: static;
-        visibility: visible;
-        z-index: 1;
-        -webkit-transform: none;
-        transform: none;
-        -webkit-transition: -webkit-transform 300ms ease;
-        transition: -webkit-transform 300ms ease;
-        transition: transform 300ms ease;
-        transition: transform 300ms ease, -webkit-transform 300ms ease;
-        margin: 0;
-        overflow: hidden;
-        top: 100%;
-        left: 0;
-        width: calc(100% - 28px);
     }
     footer .footer-width .footer-row-1 .footer-column .footer-column-section .footer-links{
         margin: 0;
@@ -1201,11 +1192,9 @@ footer .footer-width .footer-row-2{
         transition: transform 300ms ease, -webkit-transform 300ms ease;
         margin: 0;
         overflow: hidden;
-        padding-top: 5px;
-        padding-bottom: 16px;
         top: 100%;
         left: 0;
-        width: 100%;
+        width: calc(100% - 28px);
     }
     #footer-list-2.showlist2{
         position: static;

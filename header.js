@@ -6,14 +6,14 @@ selectElement('.mobile-menu').addEventListener('click', () => {
 
 });
 
-selectElement('#list-0').addEventListener('click', () => {
-	document.getElementById('footer-list-0').classList.toggle('showlist0');
-	document.getElementById('footer-column').classList.toggle('rotateicon');
+selectElement('#list-1').addEventListener('click', () => {
+	document.getElementById('footer-list-1').classList.toggle('showlist1');
+	document.getElementById('footer-column-1').classList.toggle('rotateicon-1');
 
 });
 
-selectElement('#list-1').addEventListener('click', () => {
-	document.getElementById('footer-list-1').classList.toggle('showlist1');
-	document.getElementById('footer-column-1').classList.toggle('rotateicon');
+selectElement('#list-2').addEventListener('click', () => {
+	document.getElementById('footer-list-2').classList.toggle('showlist2');
+	document.getElementById('footer-column-2').classList.toggle('rotateicon-2');
 
 });
